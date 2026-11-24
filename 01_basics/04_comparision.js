@@ -21,4 +21,5 @@ console.log(undefined < 0);
 
 // === 
 
+// code 
 console.log("2" === 2);
