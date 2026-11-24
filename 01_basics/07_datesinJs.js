@@ -1,13 +1,20 @@
 // Dates
 
+// in JS date object respresnet a single moment in time 
+//  the time is jan 1st 1970 where the date has been start calculating when declar in js 
+// date usually calculate in milli seconds when we declare the date object the long string appear
+
 let myDate = new Date()
 console.log(myDate);
 
+// we try to convert the date into string
 console.log(myDate.toString());
+
 // console.log(myDate.toDateString());
 // console.log(myDate.toLocaleString());
 // console.log(typeof myDate);
 
+//if you want to creat a specific date 
 // let myCreatedDate = new Date(2023, 0, 23)
 // let myCreatedDate = new Date(2023, 0, 23, 5, 3)
 // let myCreatedDate = new Date("2023-01-14")
